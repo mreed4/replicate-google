@@ -32,11 +32,11 @@ The manner in which I added the icon to the search box in my project[^1] does no
 
 Without looking at the source code, I am not sure of the solution that Google used. Did they (a) add it as an image in the HTML (i.e. using `<img>` not `background: <code>`) and used pure CSS code (e.g. `img {opacity: <code>}`) to alter the image, or did they (b) they alter the image in an external program, then use the altered image in the HTML?
 
-### The Footer
+### The Header and Footer
 
-While the navbar looks simple enough, the footer has several items in it, seemingly split into two rows (when viewed below a certain viewport width).
+The header and footer both have several items in them. The header (or rather, the navbar) has what appears to be two columns. The colum on the right is right aligned, while the column on the left is left aligned. The footer on the other hand is seemingly split into two rows (when viewed below a certain viewport width).
 
-When the viewport is increased beyond a certain size  however, the two rows become one row, and the single item formerly appearing in the top row is added to the center of what was the bottom row.
+When the viewport is increased beyond a certain size however, the two rows of the footer become one row, and the single item formerly appearing in the top row in the footer is added to the center of what was once the bottom row.
 
 My *guess* is that this is the result of the magic of flexbox or CSS grid and responsive design (and this is the solution I plan to use), but time will tell.
 
