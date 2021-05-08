@@ -17,7 +17,7 @@ footer {
 
 #logo {
     display: block;
-    margin: 300px auto 15px;
+    margin: 245px auto 15px;
 }
 
 #search {
@@ -28,8 +28,9 @@ footer {
     background-repeat: no-repeat;
     background-position: 12px 50%;
     background-size: 22px;
-    padding: 9px 0 9px 45px;
-    width: 600px;
+    padding: 6px 0 6px 45px;
+    width: 80%;
+    max-width: 580px;
     margin: 0 auto 45px;
     display: block;
 }
@@ -52,6 +53,7 @@ footer {
     border-radius: 3px;
     font-color: #222;
     cursor: pointer;
+    font-weight: 400;
 }
 
 .google-button:hover {
