@@ -15,19 +15,20 @@
     <header>
       <nav>
         <div>
-          <a class="nav-link vcenter" href="https://about.google">About</a>
-          <a class="nav-link vcenter" href="https://store.google.com">Store</a>
+          <a class="nav-link vcenter" href="https://about.google" target="_blank">About</a>
+          <a class="nav-link vcenter" href="https://store.google.com" target="_blank">Store</a>
         </div>
         <div>
-          <a class="nav-link" href="https://mail.google.com/mail">Gmail</a>
-          <a class="nav-link" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+          <a class="nav-link" href="https://mail.google.com/mail" target="_blank">Gmail</a>
+          <a class="nav-link" href="https://www.google.com/imghp?hl=en&ogbl" target="_blank">Images</a>
           <img class="apps" src="https://i.ibb.co/6Xzxd54/outline-apps-black-24dp.png" alt="">
           <button type="button" class="sign-in">Sign In</button>
         </div>
       </nav>
     </header>
     <content>
-      <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      <img id="logo" alt="Google logo"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
       <input type="text" id="search">
       <div>
         <button type="button" class="google-button">Google Search</button>
@@ -35,18 +36,28 @@
       </div>
     </content>
     <footer>
-      <div>
-        <a class="footer-link" href="#">Advertising</a>
-        <a class="footer-link" href="#">Business</a>
-        <a class="footer-link" href="#">How Search works</a>
+      <div id="google-footer">
+        <div>
+          <a class="footer-link" href="#">Advertising</a>
+          <a class="footer-link" href="#">Business</a>
+          <a class="footer-link" href="#">How Search works</a>
+        </div>
+        <div>
+          <a class="footer-link" href="#">
+            <img class="footer-leaf" alt="leaf" src="https://i.ibb.co/9YbS0wT/index.png">Carbon neutral since 2007</a>
+        </div>
+        <div>
+          <a class="footer-link" href="#">Privacy</a>
+          <a class="footer-link" href="#">Terms</a>
+          <a class="footer-link" href="#">Settings</a>
+        </div>
       </div>
-      <div>
-        <a class="footer-link"><img class="footer-leaf" src="https://i.ibb.co/9YbS0wT/index.png"> Carbon neutral since 2007</a>
-      </div>
-      <div>
-        <a class="footer-link" href="#">Privacy</a>
-        <a class="footer-link" href="#">Terms</a>
-        <a class="footer-link" href="#">Settings</a>
+      <div id="self-footer">
+        <span class="sneaky">Find me</span>
+        <a href="https://github.com/mreed4" target="_blank"><img class="self-footer-image"
+            src="https://i.ibb.co/CWSwpdC/Git-Hub-Mark-64px.png"></a>
+        <a href="https://codepen.io/mreed4" target="_blank"><img class="self-footer-image"
+            src="https://i.ibb.co/m9YX2TC/Button-Fill-Black-Large.png"></a>
       </div>
     </footer>
   </main>

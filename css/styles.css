@@ -16,19 +16,14 @@ footer {
     width: 100%;
 }
 
-nav, footer {
+nav, #google-footer {
     display: flex;
     justify-content: space-between;
-    color: #222;
+    color: #666
 }
 
 nav {
     padding: 12px 15px;
-}
-
-footer {
-    padding: 15px 0;
-    color: #666;
 }
 
 #logo {
@@ -62,6 +57,16 @@ footer {
     box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 1);
 }
 
+#google-footer {
+    padding: 15px 0;
+}
+
+#self-footer {
+    text-align: right;
+    padding: 9px 9px 9px 0;
+    background-color: #ddd;
+}
+
 .google-button {
     border: 1px solid white;
     background-color: #f5f5f5;
@@ -91,6 +96,7 @@ footer {
 .nav-link:hover, .footer-link:hover {
     text-decoration: underline;
 }
+
 .apps {
     display: inline-block;
     margin: -3px 27px 0;
@@ -133,4 +139,34 @@ footer {
 
 .footer-leaf {
     height: 12px;
+    padding-right: 6px;
+}
+
+.self-footer-image {
+    height: 24px;
+    padding: 0 0 3px;
+    margin: 0;
+    vertical-align: middle;
+    filter: opacity(.6);
+}
+
+.self-footer-image:hover {
+    height: 24px;
+    padding: 0 0 3px;
+    margin: 0;
+    vertical-align: middle;
+    /*transform: translateY(-3px);*/
+    filter: opacity(1);
+}
+
+.sneaky {
+    vertical-align: middle;
+    color: #bbb;
+    font-family: serif;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 350;
+    margin-right: 9px;
+    user-select: none;
 }
