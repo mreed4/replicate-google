@@ -24,6 +24,7 @@ nav, #google-footer {
 
 nav {
     padding: 12px 15px;
+    color: #222;
 }
 
 #logo {
@@ -65,6 +66,7 @@ nav {
     text-align: right;
     padding: 9px 9px 9px 0;
     background-color: #ddd;
+    user-select: none;
 }
 
 .google-button {
@@ -99,7 +101,7 @@ nav {
 
 .apps {
     display: inline-block;
-    margin: -3px 27px 0;
+    margin: -3px 21px 0;
     padding: 6px;
     vertical-align: middle;
     border-radius: 24px;
@@ -155,7 +157,7 @@ nav {
     padding: 0 0 3px;
     margin: 0;
     vertical-align: middle;
-    /*transform: translateY(-3px);*/
+    transform: translateY(-1px);
     filter: opacity(1);
 }
 
@@ -168,5 +170,5 @@ nav {
     font-size: 14px;
     font-weight: 350;
     margin-right: 9px;
-    user-select: none;
+    
 }
