@@ -36,7 +36,7 @@ nav {
     height: 30px;
     border-radius: 30px;
     border: 1px solid #ddd;
-    background-image: url(https://i.ibb.co/fpg3rfH/outline-search-black-24dp.png);
+    background-image: url(https://madare.co/i/search.png);
     background-repeat: no-repeat;
     background-position: 12px 50%;
     background-size: 22px;
@@ -170,5 +170,4 @@ nav {
     font-size: 14px;
     font-weight: 350;
     margin-right: 9px;
-    
 }
